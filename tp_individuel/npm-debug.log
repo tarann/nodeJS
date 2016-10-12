@@ -1,0 +1,1399 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'sqlite3' ]
+2 info using npm@3.10.3
+3 info using node@v6.7.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData sqlite3
+8 silly fetchNamedPackageData sqlite3
+9 silly mapToRegistry name sqlite3
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'sqlite3',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'sqlite3',
+12 silly mapToRegistry   name: 'sqlite3',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/sqlite3
+14 verbose request uri https://registry.npmjs.org/sqlite3
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 17:13:44
+17 verbose request id 6292fab54ac9d82d
+18 verbose etag "3VYL6EY09E4VCKJLMXDYYT3UG"
+19 http request GET https://registry.npmjs.org/sqlite3
+20 http 304 https://registry.npmjs.org/sqlite3
+21 verbose headers { date: 'Thu, 06 Oct 2016 15:13:44 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: '"3VYL6EY09E4VCKJLMXDYYT3UG"',
+21 verbose headers   age: '66',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-fra1227-FRA',
+21 verbose headers   'x-cache': 'HIT',
+21 verbose headers   'x-cache-hits': '2',
+21 verbose headers   'x-timer': 'S1475766824.804829,VS0,VE0',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Thu, 06 Oct 2016 15:13:44 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: '"3VYL6EY09E4VCKJLMXDYYT3UG"',
+22 silly get     age: '66',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-fra1227-FRA',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '2',
+22 silly get     'x-timer': 'S1475766824.804829,VS0,VE0',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose etag https://registry.npmjs.org/sqlite3 from cache
+24 verbose get saving sqlite3 to C:\Users\jp\AppData\Roaming\npm-cache\registry.npmjs.org\sqlite3\.cache.json
+25 verbose correctMkdir C:\Users\jp\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule sqlite3@3.1.5 checking installable status
+39 silly cache add args [ 'sqlite3', null ]
+40 verbose cache add spec sqlite3
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'sqlite3',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'sqlite3',
+41 silly cache add   name: 'sqlite3',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed sqlite3@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for sqlite3
+44 info addNameTag [ 'sqlite3', 'latest' ]
+45 silly mapToRegistry name sqlite3
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'sqlite3',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'sqlite3',
+48 silly mapToRegistry   name: 'sqlite3',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/sqlite3
+50 verbose addNameTag registry:https://registry.npmjs.org/sqlite3 not in flight; fetching
+51 verbose get https://registry.npmjs.org/sqlite3 not expired, no request
+52 silly addNameTag next cb for sqlite3 with tag latest
+53 silly addNamed sqlite3@3.1.5
+54 verbose addNamed "3.1.5" is a plain semver version for sqlite3
+55 silly cache afterAdd sqlite3@3.1.5
+56 verbose afterAdd C:\Users\jp\AppData\Roaming\npm-cache\sqlite3\3.1.5\package\package.json not in flight; writing
+57 verbose correctMkdir C:\Users\jp\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+58 verbose afterAdd C:\Users\jp\AppData\Roaming\npm-cache\sqlite3\3.1.5\package\package.json written
+59 silly fetchNamedPackageData nan
+60 silly mapToRegistry name nan
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry data Result {
+63 silly mapToRegistry   raw: 'nan',
+63 silly mapToRegistry   scope: null,
+63 silly mapToRegistry   escapedName: 'nan',
+63 silly mapToRegistry   name: 'nan',
+63 silly mapToRegistry   rawSpec: '',
+63 silly mapToRegistry   spec: 'latest',
+63 silly mapToRegistry   type: 'tag' }
+64 silly mapToRegistry uri https://registry.npmjs.org/nan
+65 verbose request uri https://registry.npmjs.org/nan
+66 verbose request no auth needed
+67 info attempt registry request try #1 at 17:13:45
+68 verbose etag "1YJEPM5V4XH0MZT0HV3B8R9BB"
+69 http request GET https://registry.npmjs.org/nan
+70 http 200 https://registry.npmjs.org/nan
+71 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+71 verbose headers   etag: '"AAUSESYJ5HB4XGVKSDD6PP7FG"',
+71 verbose headers   'content-type': 'application/json',
+71 verbose headers   'content-encoding': 'gzip',
+71 verbose headers   'cache-control': 'max-age=300',
+71 verbose headers   'content-length': '17162',
+71 verbose headers   'accept-ranges': 'bytes',
+71 verbose headers   date: 'Thu, 06 Oct 2016 15:13:45 GMT',
+71 verbose headers   via: '1.1 varnish',
+71 verbose headers   age: '244',
+71 verbose headers   connection: 'keep-alive',
+71 verbose headers   'x-served-by': 'cache-fra1227-FRA',
+71 verbose headers   'x-cache': 'HIT',
+71 verbose headers   'x-cache-hits': '39',
+71 verbose headers   'x-timer': 'S1475766825.068812,VS0,VE0',
+71 verbose headers   vary: 'Accept-Encoding' }
+72 silly get cb [ 200,
+72 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+72 silly get     etag: '"AAUSESYJ5HB4XGVKSDD6PP7FG"',
+72 silly get     'content-type': 'application/json',
+72 silly get     'content-encoding': 'gzip',
+72 silly get     'cache-control': 'max-age=300',
+72 silly get     'content-length': '17162',
+72 silly get     'accept-ranges': 'bytes',
+72 silly get     date: 'Thu, 06 Oct 2016 15:13:45 GMT',
+72 silly get     via: '1.1 varnish',
+72 silly get     age: '244',
+72 silly get     connection: 'keep-alive',
+72 silly get     'x-served-by': 'cache-fra1227-FRA',
+72 silly get     'x-cache': 'HIT',
+72 silly get     'x-cache-hits': '39',
+72 silly get     'x-timer': 'S1475766825.068812,VS0,VE0',
+72 silly get     vary: 'Accept-Encoding' } ]
+73 verbose get saving nan to C:\Users\jp\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+74 verbose correctMkdir C:\Users\jp\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+75 silly resolveWithNewModule nan@2.3.5 checking installable status
+76 silly cache add args [ 'nan@~2.3.3', null ]
+77 verbose cache add spec nan@~2.3.3
+78 silly cache add parsed spec Result {
+78 silly cache add   raw: 'nan@~2.3.3',
+78 silly cache add   scope: null,
+78 silly cache add   escapedName: 'nan',
+78 silly cache add   name: 'nan',
+78 silly cache add   rawSpec: '~2.3.3',
+78 silly cache add   spec: '>=2.3.3 <2.4.0',
+78 silly cache add   type: 'range' }
+79 silly addNamed nan@>=2.3.3 <2.4.0
+80 verbose addNamed ">=2.3.3 <2.4.0" is a valid semver range for nan
+81 silly addNameRange { name: 'nan', range: '>=2.3.3 <2.4.0', hasData: false }
+82 silly mapToRegistry name nan
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry data Result {
+85 silly mapToRegistry   raw: 'nan',
+85 silly mapToRegistry   scope: null,
+85 silly mapToRegistry   escapedName: 'nan',
+85 silly mapToRegistry   name: 'nan',
+85 silly mapToRegistry   rawSpec: '',
+85 silly mapToRegistry   spec: 'latest',
+85 silly mapToRegistry   type: 'tag' }
+86 silly mapToRegistry uri https://registry.npmjs.org/nan
+87 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+88 verbose get https://registry.npmjs.org/nan not expired, no request
+89 silly addNameRange number 2 { name: 'nan', range: '>=2.3.3 <2.4.0', hasData: true }
+90 silly addNameRange versions [ 'nan',
+90 silly addNameRange   [ '0.3.0-wip',
+90 silly addNameRange     '0.3.0-wip2',
+90 silly addNameRange     '0.3.0',
+90 silly addNameRange     '0.3.1',
+90 silly addNameRange     '0.3.2',
+90 silly addNameRange     '0.4.0',
+90 silly addNameRange     '0.4.1',
+90 silly addNameRange     '0.4.2',
+90 silly addNameRange     '0.4.3',
+90 silly addNameRange     '0.4.4',
+90 silly addNameRange     '0.5.0',
+90 silly addNameRange     '0.5.1',
+90 silly addNameRange     '0.5.2',
+90 silly addNameRange     '0.6.0',
+90 silly addNameRange     '0.7.0',
+90 silly addNameRange     '0.7.1',
+90 silly addNameRange     '0.8.0',
+90 silly addNameRange     '1.0.0',
+90 silly addNameRange     '1.1.0',
+90 silly addNameRange     '1.1.1',
+90 silly addNameRange     '1.1.2',
+90 silly addNameRange     '1.2.0',
+90 silly addNameRange     '1.3.0',
+90 silly addNameRange     '1.4.0',
+90 silly addNameRange     '1.4.1',
+90 silly addNameRange     '1.5.0',
+90 silly addNameRange     '1.4.2',
+90 silly addNameRange     '1.4.3',
+90 silly addNameRange     '1.5.1',
+90 silly addNameRange     '1.5.2',
+90 silly addNameRange     '1.6.0',
+90 silly addNameRange     '1.5.3',
+90 silly addNameRange     '1.6.1',
+90 silly addNameRange     '1.6.2',
+90 silly addNameRange     '1.7.0',
+90 silly addNameRange     '1.8.0',
+90 silly addNameRange     '1.8.1',
+90 silly addNameRange     '1.8.2',
+90 silly addNameRange     '1.8.3',
+90 silly addNameRange     '1.8.4',
+90 silly addNameRange     '1.9.0',
+90 silly addNameRange     '2.0.0',
+90 silly addNameRange     '2.0.1',
+90 silly addNameRange     '2.0.2',
+90 silly addNameRange     '2.0.3',
+90 silly addNameRange     '2.0.4',
+90 silly addNameRange     '2.0.5',
+90 silly addNameRange     '2.0.6',
+90 silly addNameRange     '2.0.7',
+90 silly addNameRange     '2.0.8',
+90 silly addNameRange     '2.0.9',
+90 silly addNameRange     '2.1.0',
+90 silly addNameRange     '2.2.0',
+90 silly addNameRange     '2.2.1',
+90 silly addNameRange     '2.3.0',
+90 silly addNameRange     '2.3.1',
+90 silly addNameRange     '2.3.2',
+90 silly addNameRange     '2.3.3',
+90 silly addNameRange     '2.3.4',
+90 silly addNameRange     '2.3.5',
+90 silly addNameRange     '2.4.0' ] ]
+91 silly addNamed nan@2.3.5
+92 verbose addNamed "2.3.5" is a plain semver version for nan
+93 silly cache afterAdd nan@2.3.5
+94 verbose afterAdd C:\Users\jp\AppData\Roaming\npm-cache\nan\2.3.5\package\package.json not in flight; writing
+95 verbose correctMkdir C:\Users\jp\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+96 verbose afterAdd C:\Users\jp\AppData\Roaming\npm-cache\nan\2.3.5\package\package.json written
+97 silly loadAllDepsIntoIdealTree Finishing
+98 silly loadIdealTree Finishing
+99 silly currentTree tp_01@1.0.0
+99 silly currentTree +-- abbrev@1.0.9
+99 silly currentTree +-- ansi-escapes@1.4.0
+99 silly currentTree +-- ansi-regex@2.0.0
+99 silly currentTree +-- ansi-styles@2.2.1
+99 silly currentTree +-- aproba@1.0.4
+99 silly currentTree +-- are-we-there-yet@1.1.2
+99 silly currentTree +-- asn1@0.2.3
+99 silly currentTree +-- assert-plus@0.2.0
+99 silly currentTree +-- asynckit@0.4.0
+99 silly currentTree +-- aws-sign2@0.6.0
+99 silly currentTree +-- aws4@1.4.1
+99 silly currentTree +-- balanced-match@0.4.2
+99 silly currentTree +-- bcrypt-pbkdf@1.0.0
+99 silly currentTree +-- bl@1.1.2
+99 silly currentTree +-- block-stream@0.0.9
+99 silly currentTree +-- boom@2.10.1
+99 silly currentTree +-- brace-expansion@1.1.6
+99 silly currentTree +-- buffer-shims@1.0.0
+99 silly currentTree +-- caseless@0.11.0
+99 silly currentTree +-- chalk@1.1.3
+99 silly currentTree +-- cli-cursor@1.0.2
+99 silly currentTree +-- cli-width@2.1.0
+99 silly currentTree +-- code-point-at@1.0.1
+99 silly currentTree +-- combined-stream@1.0.5
+99 silly currentTree +-- commander@2.9.0
+99 silly currentTree +-- concat-map@0.0.1
+99 silly currentTree +-- concat-stream@1.5.2
+99 silly currentTree +-- console-control-strings@1.1.0
+99 silly currentTree +-- core-util-is@1.0.2
+99 silly currentTree +-- cryptiles@2.0.5
+99 silly currentTree +-- dashdash@1.14.0
+99 silly currentTree | `-- assert-plus@1.0.0
+99 silly currentTree +-- debug@2.2.0
+99 silly currentTree +-- deep-extend@0.4.1
+99 silly currentTree +-- delayed-stream@1.0.0
+99 silly currentTree +-- delegates@1.0.0
+99 silly currentTree +-- ecc-jsbn@0.1.1
+99 silly currentTree +-- escape-string-regexp@1.0.5
+99 silly currentTree +-- exit-hook@1.1.1
+99 silly currentTree +-- extend@3.0.0
+99 silly currentTree +-- external-editor@1.1.0
+99 silly currentTree +-- extsprintf@1.0.2
+99 silly currentTree +-- figures@1.7.0
+99 silly currentTree +-- forever-agent@0.6.1
+99 silly currentTree +-- form-data@2.0.0
+99 silly currentTree +-- fs.realpath@1.0.0
+99 silly currentTree +-- fstream-ignore@1.0.5
+99 silly currentTree +-- fstream@1.0.10
+99 silly currentTree +-- gauge@2.6.0
+99 silly currentTree +-- generate-function@2.0.0
+99 silly currentTree +-- generate-object-property@1.2.0
+99 silly currentTree +-- getpass@0.1.6
+99 silly currentTree | `-- assert-plus@1.0.0
+99 silly currentTree +-- glob@7.1.0
+99 silly currentTree +-- graceful-fs@4.1.9
+99 silly currentTree +-- graceful-readlink@1.0.1
+99 silly currentTree +-- har-validator@2.0.6
+99 silly currentTree +-- has-ansi@2.0.0
+99 silly currentTree +-- has-color@0.1.7
+99 silly currentTree +-- has-unicode@2.0.1
+99 silly currentTree +-- hawk@3.1.3
+99 silly currentTree +-- hoek@2.16.3
+99 silly currentTree +-- http-signature@1.1.1
+99 silly currentTree +-- inflight@1.0.5
+99 silly currentTree +-- inherits@2.0.3
+99 silly currentTree +-- ini@1.3.4
+99 silly currentTree +-- inquirer@1.2.1
+99 silly currentTree +-- is-fullwidth-code-point@1.0.0
+99 silly currentTree +-- is-my-json-valid@2.15.0
+99 silly currentTree +-- is-promise@2.1.0
+99 silly currentTree +-- is-property@1.0.2
+99 silly currentTree +-- is-typedarray@1.0.0
+99 silly currentTree +-- isarray@1.0.0
+99 silly currentTree +-- isstream@0.1.2
+99 silly currentTree +-- jodid25519@1.0.2
+99 silly currentTree +-- jsbn@0.1.0
+99 silly currentTree +-- json-schema@0.2.3
+99 silly currentTree +-- json-stringify-safe@5.0.1
+99 silly currentTree +-- jsonpointer@4.0.0
+99 silly currentTree +-- jsprim@1.3.1
+99 silly currentTree +-- lodash@4.16.3
+99 silly currentTree +-- mime-db@1.24.0
+99 silly currentTree +-- mime-types@2.1.12
+99 silly currentTree +-- minimatch@3.0.3
+99 silly currentTree +-- minimist@0.0.8
+99 silly currentTree +-- mkdirp@0.5.1
+99 silly currentTree +-- ms@0.7.1
+99 silly currentTree +-- mute-stream@0.0.6
+99 silly currentTree +-- nan@2.3.5
+99 silly currentTree +-- node-pre-gyp@0.6.30
+99 silly currentTree | `-- rimraf@2.5.4
+99 silly currentTree +-- node-uuid@1.4.7
+99 silly currentTree +-- nopt@3.0.6
+99 silly currentTree +-- npmlog@4.0.0
+99 silly currentTree +-- number-is-nan@1.0.1
+99 silly currentTree +-- oauth-sign@0.8.2
+99 silly currentTree +-- object-assign@4.1.0
+99 silly currentTree +-- once@1.4.0
+99 silly currentTree +-- onetime@1.1.0
+99 silly currentTree +-- os-shim@0.1.3
+99 silly currentTree +-- os-tmpdir@1.0.2
+99 silly currentTree +-- path-is-absolute@1.0.1
+99 silly currentTree +-- pinkie-promise@2.0.1
+99 silly currentTree +-- pinkie@2.0.4
+99 silly currentTree +-- process-nextick-args@1.0.7
+99 silly currentTree +-- qs@6.2.1
+99 silly currentTree +-- rc@1.1.6
+99 silly currentTree | `-- minimist@1.2.0
+99 silly currentTree +-- readable-stream@2.0.6
+99 silly currentTree +-- request@2.75.0
+99 silly currentTree +-- restore-cursor@1.0.1
+99 silly currentTree +-- rimraf@2.2.8
+99 silly currentTree +-- run-async@2.2.0
+99 silly currentTree +-- rx@4.1.0
+99 silly currentTree +-- semver@5.3.0
+99 silly currentTree +-- set-blocking@2.0.0
+99 silly currentTree +-- signal-exit@3.0.1
+99 silly currentTree +-- sntp@1.0.9
+99 silly currentTree +-- spawn-sync@1.0.15
+99 silly currentTree +-- sqlite@2.2.0
+99 silly currentTree +-- sqlite3@3.1.5
+99 silly currentTree | +-- abbrev@1.0.9
+99 silly currentTree | +-- ansi-regex@2.0.0
+99 silly currentTree | +-- ansi-styles@2.2.1
+99 silly currentTree | +-- aproba@1.0.4
+99 silly currentTree | +-- are-we-there-yet@1.1.2
+99 silly currentTree | +-- asn1@0.2.3
+99 silly currentTree | +-- assert-plus@0.2.0
+99 silly currentTree | +-- asynckit@0.4.0
+99 silly currentTree | +-- aws-sign2@0.6.0
+99 silly currentTree | +-- aws4@1.4.1
+99 silly currentTree | +-- balanced-match@0.4.2
+99 silly currentTree | +-- bcrypt-pbkdf@1.0.0
+99 silly currentTree | +-- bl@1.1.2
+99 silly currentTree | | `-- readable-stream@2.0.6
+99 silly currentTree | +-- block-stream@0.0.9
+99 silly currentTree | +-- boom@2.10.1
+99 silly currentTree | +-- brace-expansion@1.1.6
+99 silly currentTree | +-- buffer-shims@1.0.0
+99 silly currentTree | +-- caseless@0.11.0
+99 silly currentTree | +-- chalk@1.1.3
+99 silly currentTree | +-- code-point-at@1.0.1
+99 silly currentTree | +-- combined-stream@1.0.5
+99 silly currentTree | +-- commander@2.9.0
+99 silly currentTree | +-- concat-map@0.0.1
+99 silly currentTree | +-- console-control-strings@1.1.0
+99 silly currentTree | +-- core-util-is@1.0.2
+99 silly currentTree | +-- cryptiles@2.0.5
+99 silly currentTree | +-- dashdash@1.14.0
+99 silly currentTree | | `-- assert-plus@1.0.0
+99 silly currentTree | +-- debug@2.2.0
+99 silly currentTree | +-- deep-extend@0.4.1
+99 silly currentTree | +-- delayed-stream@1.0.0
+99 silly currentTree | +-- delegates@1.0.0
+99 silly currentTree | +-- ecc-jsbn@0.1.1
+99 silly currentTree | +-- escape-string-regexp@1.0.5
+99 silly currentTree | +-- extend@3.0.0
+99 silly currentTree | +-- extsprintf@1.0.2
+99 silly currentTree | +-- forever-agent@0.6.1
+99 silly currentTree | +-- form-data@2.0.0
+99 silly currentTree | +-- fs.realpath@1.0.0
+99 silly currentTree | +-- fstream-ignore@1.0.5
+99 silly currentTree | +-- fstream@1.0.10
+99 silly currentTree | +-- gauge@2.6.0
+99 silly currentTree | +-- generate-function@2.0.0
+99 silly currentTree | +-- generate-object-property@1.2.0
+99 silly currentTree | +-- getpass@0.1.6
+99 silly currentTree | | `-- assert-plus@1.0.0
+99 silly currentTree | +-- glob@7.1.0
+99 silly currentTree | +-- graceful-fs@4.1.9
+99 silly currentTree | +-- graceful-readlink@1.0.1
+99 silly currentTree | +-- har-validator@2.0.6
+99 silly currentTree | +-- has-ansi@2.0.0
+99 silly currentTree | +-- has-color@0.1.7
+99 silly currentTree | +-- has-unicode@2.0.1
+99 silly currentTree | +-- hawk@3.1.3
+99 silly currentTree | +-- hoek@2.16.3
+99 silly currentTree | +-- http-signature@1.1.1
+99 silly currentTree | +-- inflight@1.0.5
+99 silly currentTree | +-- inherits@2.0.3
+99 silly currentTree | +-- ini@1.3.4
+99 silly currentTree | +-- is-fullwidth-code-point@1.0.0
+99 silly currentTree | +-- is-my-json-valid@2.15.0
+99 silly currentTree | +-- is-property@1.0.2
+99 silly currentTree | +-- is-typedarray@1.0.0
+99 silly currentTree | +-- isarray@1.0.0
+99 silly currentTree | +-- isstream@0.1.2
+99 silly currentTree | +-- jodid25519@1.0.2
+99 silly currentTree | +-- jsbn@0.1.0
+99 silly currentTree | +-- json-schema@0.2.3
+99 silly currentTree | +-- json-stringify-safe@5.0.1
+99 silly currentTree | +-- jsonpointer@4.0.0
+99 silly currentTree | +-- jsprim@1.3.1
+99 silly currentTree | +-- mime-db@1.24.0
+99 silly currentTree | +-- mime-types@2.1.12
+99 silly currentTree | +-- minimatch@3.0.3
+99 silly currentTree | +-- minimist@0.0.8
+99 silly currentTree | +-- mkdirp@0.5.1
+99 silly currentTree | +-- ms@0.7.1
+99 silly currentTree | +-- node-pre-gyp@0.6.30
+99 silly currentTree | +-- node-uuid@1.4.7
+99 silly currentTree | +-- nopt@3.0.6
+99 silly currentTree | +-- npmlog@4.0.0
+99 silly currentTree | +-- number-is-nan@1.0.1
+99 silly currentTree | +-- oauth-sign@0.8.2
+99 silly currentTree | +-- object-assign@4.1.0
+99 silly currentTree | +-- once@1.4.0
+99 silly currentTree | +-- path-is-absolute@1.0.1
+99 silly currentTree | +-- pinkie-promise@2.0.1
+99 silly currentTree | +-- pinkie@2.0.4
+99 silly currentTree | +-- process-nextick-args@1.0.7
+99 silly currentTree | +-- qs@6.2.1
+99 silly currentTree | +-- rc@1.1.6
+99 silly currentTree | | `-- minimist@1.2.0
+99 silly currentTree | +-- readable-stream@2.1.5
+99 silly currentTree | +-- request@2.75.0
+99 silly currentTree | +-- rimraf@2.5.4
+99 silly currentTree | +-- semver@5.3.0
+99 silly currentTree | +-- set-blocking@2.0.0
+99 silly currentTree | +-- signal-exit@3.0.1
+99 silly currentTree | +-- sntp@1.0.9
+99 silly currentTree | +-- sshpk@1.10.1
+99 silly currentTree | | `-- assert-plus@1.0.0
+99 silly currentTree | +-- string_decoder@0.10.31
+99 silly currentTree | +-- string-width@1.0.2
+99 silly currentTree | +-- stringstream@0.0.5
+99 silly currentTree | +-- strip-ansi@3.0.1
+99 silly currentTree | +-- strip-json-comments@1.0.4
+99 silly currentTree | +-- supports-color@2.0.0
+99 silly currentTree | +-- tar-pack@3.1.4
+99 silly currentTree | | `-- once@1.3.3
+99 silly currentTree | +-- tar@2.2.1
+99 silly currentTree | +-- tough-cookie@2.3.1
+99 silly currentTree | +-- tunnel-agent@0.4.3
+99 silly currentTree | +-- tweetnacl@0.14.3
+99 silly currentTree | +-- uid-number@0.0.6
+99 silly currentTree | +-- util-deprecate@1.0.2
+99 silly currentTree | +-- verror@1.3.6
+99 silly currentTree | +-- wide-align@1.1.0
+99 silly currentTree | +-- wrappy@1.0.2
+99 silly currentTree | `-- xtend@4.0.1
+99 silly currentTree +-- sshpk@1.10.1
+99 silly currentTree | `-- assert-plus@1.0.0
+99 silly currentTree +-- string_decoder@0.10.31
+99 silly currentTree +-- string-width@1.0.2
+99 silly currentTree +-- stringstream@0.0.5
+99 silly currentTree +-- strip-ansi@3.0.1
+99 silly currentTree +-- strip-json-comments@1.0.4
+99 silly currentTree +-- supports-color@2.0.0
+99 silly currentTree +-- tar-pack@3.1.4
+99 silly currentTree | +-- once@1.3.3
+99 silly currentTree | +-- readable-stream@2.1.5
+99 silly currentTree | `-- rimraf@2.5.4
+99 silly currentTree +-- tar@2.2.1
+99 silly currentTree +-- temp@0.8.3
+99 silly currentTree +-- through@2.3.8
+99 silly currentTree +-- tough-cookie@2.3.1
+99 silly currentTree +-- tunnel-agent@0.4.3
+99 silly currentTree +-- tweetnacl@0.14.3
+99 silly currentTree +-- typedarray@0.0.6
+99 silly currentTree +-- uid-number@0.0.6
+99 silly currentTree +-- util-deprecate@1.0.2
+99 silly currentTree +-- verror@1.3.6
+99 silly currentTree +-- wide-align@1.1.0
+99 silly currentTree +-- wrappy@1.0.2
+99 silly currentTree `-- xtend@4.0.1
+100 silly idealTree tp_01@1.0.0
+100 silly idealTree +-- abbrev@1.0.9
+100 silly idealTree +-- ansi-escapes@1.4.0
+100 silly idealTree +-- ansi-regex@2.0.0
+100 silly idealTree +-- ansi-styles@2.2.1
+100 silly idealTree +-- aproba@1.0.4
+100 silly idealTree +-- are-we-there-yet@1.1.2
+100 silly idealTree +-- asn1@0.2.3
+100 silly idealTree +-- assert-plus@0.2.0
+100 silly idealTree +-- asynckit@0.4.0
+100 silly idealTree +-- aws-sign2@0.6.0
+100 silly idealTree +-- aws4@1.4.1
+100 silly idealTree +-- balanced-match@0.4.2
+100 silly idealTree +-- bcrypt-pbkdf@1.0.0
+100 silly idealTree +-- bl@1.1.2
+100 silly idealTree +-- block-stream@0.0.9
+100 silly idealTree +-- boom@2.10.1
+100 silly idealTree +-- brace-expansion@1.1.6
+100 silly idealTree +-- buffer-shims@1.0.0
+100 silly idealTree +-- caseless@0.11.0
+100 silly idealTree +-- chalk@1.1.3
+100 silly idealTree +-- cli-cursor@1.0.2
+100 silly idealTree +-- cli-width@2.1.0
+100 silly idealTree +-- code-point-at@1.0.1
+100 silly idealTree +-- combined-stream@1.0.5
+100 silly idealTree +-- commander@2.9.0
+100 silly idealTree +-- concat-map@0.0.1
+100 silly idealTree +-- concat-stream@1.5.2
+100 silly idealTree +-- console-control-strings@1.1.0
+100 silly idealTree +-- core-util-is@1.0.2
+100 silly idealTree +-- cryptiles@2.0.5
+100 silly idealTree +-- dashdash@1.14.0
+100 silly idealTree | `-- assert-plus@1.0.0
+100 silly idealTree +-- debug@2.2.0
+100 silly idealTree +-- deep-extend@0.4.1
+100 silly idealTree +-- delayed-stream@1.0.0
+100 silly idealTree +-- delegates@1.0.0
+100 silly idealTree +-- ecc-jsbn@0.1.1
+100 silly idealTree +-- escape-string-regexp@1.0.5
+100 silly idealTree +-- exit-hook@1.1.1
+100 silly idealTree +-- extend@3.0.0
+100 silly idealTree +-- external-editor@1.1.0
+100 silly idealTree +-- extsprintf@1.0.2
+100 silly idealTree +-- figures@1.7.0
+100 silly idealTree +-- forever-agent@0.6.1
+100 silly idealTree +-- form-data@2.0.0
+100 silly idealTree +-- fs.realpath@1.0.0
+100 silly idealTree +-- fstream-ignore@1.0.5
+100 silly idealTree +-- fstream@1.0.10
+100 silly idealTree +-- gauge@2.6.0
+100 silly idealTree +-- generate-function@2.0.0
+100 silly idealTree +-- generate-object-property@1.2.0
+100 silly idealTree +-- getpass@0.1.6
+100 silly idealTree | `-- assert-plus@1.0.0
+100 silly idealTree +-- glob@7.1.0
+100 silly idealTree +-- graceful-fs@4.1.9
+100 silly idealTree +-- graceful-readlink@1.0.1
+100 silly idealTree +-- har-validator@2.0.6
+100 silly idealTree +-- has-ansi@2.0.0
+100 silly idealTree +-- has-color@0.1.7
+100 silly idealTree +-- has-unicode@2.0.1
+100 silly idealTree +-- hawk@3.1.3
+100 silly idealTree +-- hoek@2.16.3
+100 silly idealTree +-- http-signature@1.1.1
+100 silly idealTree +-- inflight@1.0.5
+100 silly idealTree +-- inherits@2.0.3
+100 silly idealTree +-- ini@1.3.4
+100 silly idealTree +-- inquirer@1.2.1
+100 silly idealTree +-- is-fullwidth-code-point@1.0.0
+100 silly idealTree +-- is-my-json-valid@2.15.0
+100 silly idealTree +-- is-promise@2.1.0
+100 silly idealTree +-- is-property@1.0.2
+100 silly idealTree +-- is-typedarray@1.0.0
+100 silly idealTree +-- isarray@1.0.0
+100 silly idealTree +-- isstream@0.1.2
+100 silly idealTree +-- jodid25519@1.0.2
+100 silly idealTree +-- jsbn@0.1.0
+100 silly idealTree +-- json-schema@0.2.3
+100 silly idealTree +-- json-stringify-safe@5.0.1
+100 silly idealTree +-- jsonpointer@4.0.0
+100 silly idealTree +-- jsprim@1.3.1
+100 silly idealTree +-- lodash@4.16.3
+100 silly idealTree +-- mime-db@1.24.0
+100 silly idealTree +-- mime-types@2.1.12
+100 silly idealTree +-- minimatch@3.0.3
+100 silly idealTree +-- minimist@0.0.8
+100 silly idealTree +-- mkdirp@0.5.1
+100 silly idealTree +-- ms@0.7.1
+100 silly idealTree +-- mute-stream@0.0.6
+100 silly idealTree +-- nan@2.3.5
+100 silly idealTree +-- node-pre-gyp@0.6.30
+100 silly idealTree | `-- rimraf@2.5.4
+100 silly idealTree +-- node-uuid@1.4.7
+100 silly idealTree +-- nopt@3.0.6
+100 silly idealTree +-- npmlog@4.0.0
+100 silly idealTree +-- number-is-nan@1.0.1
+100 silly idealTree +-- oauth-sign@0.8.2
+100 silly idealTree +-- object-assign@4.1.0
+100 silly idealTree +-- once@1.4.0
+100 silly idealTree +-- onetime@1.1.0
+100 silly idealTree +-- os-shim@0.1.3
+100 silly idealTree +-- os-tmpdir@1.0.2
+100 silly idealTree +-- path-is-absolute@1.0.1
+100 silly idealTree +-- pinkie-promise@2.0.1
+100 silly idealTree +-- pinkie@2.0.4
+100 silly idealTree +-- process-nextick-args@1.0.7
+100 silly idealTree +-- qs@6.2.1
+100 silly idealTree +-- rc@1.1.6
+100 silly idealTree | `-- minimist@1.2.0
+100 silly idealTree +-- readable-stream@2.0.6
+100 silly idealTree +-- request@2.75.0
+100 silly idealTree +-- restore-cursor@1.0.1
+100 silly idealTree +-- rimraf@2.2.8
+100 silly idealTree +-- run-async@2.2.0
+100 silly idealTree +-- rx@4.1.0
+100 silly idealTree +-- semver@5.3.0
+100 silly idealTree +-- set-blocking@2.0.0
+100 silly idealTree +-- signal-exit@3.0.1
+100 silly idealTree +-- sntp@1.0.9
+100 silly idealTree +-- spawn-sync@1.0.15
+100 silly idealTree +-- sqlite@2.2.0
+100 silly idealTree +-- sqlite3@3.1.5
+100 silly idealTree +-- sshpk@1.10.1
+100 silly idealTree | `-- assert-plus@1.0.0
+100 silly idealTree +-- string_decoder@0.10.31
+100 silly idealTree +-- string-width@1.0.2
+100 silly idealTree +-- stringstream@0.0.5
+100 silly idealTree +-- strip-ansi@3.0.1
+100 silly idealTree +-- strip-json-comments@1.0.4
+100 silly idealTree +-- supports-color@2.0.0
+100 silly idealTree +-- tar-pack@3.1.4
+100 silly idealTree | +-- once@1.3.3
+100 silly idealTree | +-- readable-stream@2.1.5
+100 silly idealTree | `-- rimraf@2.5.4
+100 silly idealTree +-- tar@2.2.1
+100 silly idealTree +-- temp@0.8.3
+100 silly idealTree +-- through@2.3.8
+100 silly idealTree +-- tough-cookie@2.3.1
+100 silly idealTree +-- tunnel-agent@0.4.3
+100 silly idealTree +-- tweetnacl@0.14.3
+100 silly idealTree +-- typedarray@0.0.6
+100 silly idealTree +-- uid-number@0.0.6
+100 silly idealTree +-- util-deprecate@1.0.2
+100 silly idealTree +-- verror@1.3.6
+100 silly idealTree +-- wide-align@1.1.0
+100 silly idealTree +-- wrappy@1.0.2
+100 silly idealTree `-- xtend@4.0.1
+101 silly generateActionsToTake Starting
+102 silly install generateActionsToTake
+103 silly generateActionsToTake Finishing
+104 silly diffTrees action count 121
+105 silly diffTrees remove abbrev@1.0.9
+106 silly diffTrees remove ansi-regex@2.0.0
+107 silly diffTrees remove ansi-styles@2.2.1
+108 silly diffTrees remove aproba@1.0.4
+109 silly diffTrees remove asn1@0.2.3
+110 silly diffTrees remove assert-plus@0.2.0
+111 silly diffTrees remove asynckit@0.4.0
+112 silly diffTrees remove aws-sign2@0.6.0
+113 silly diffTrees remove aws4@1.4.1
+114 silly diffTrees remove balanced-match@0.4.2
+115 silly diffTrees remove buffer-shims@1.0.0
+116 silly diffTrees remove caseless@0.11.0
+117 silly diffTrees remove concat-map@0.0.1
+118 silly diffTrees remove brace-expansion@1.1.6
+119 silly diffTrees remove console-control-strings@1.1.0
+120 silly diffTrees remove core-util-is@1.0.2
+121 silly diffTrees remove assert-plus@1.0.0
+122 silly diffTrees remove dashdash@1.14.0
+123 silly diffTrees remove deep-extend@0.4.1
+124 silly diffTrees remove delayed-stream@1.0.0
+125 silly diffTrees remove combined-stream@1.0.5
+126 silly diffTrees remove delegates@1.0.0
+127 silly diffTrees remove escape-string-regexp@1.0.5
+128 silly diffTrees remove extend@3.0.0
+129 silly diffTrees remove extsprintf@1.0.2
+130 silly diffTrees remove forever-agent@0.6.1
+131 silly diffTrees remove fs.realpath@1.0.0
+132 silly diffTrees remove generate-function@2.0.0
+133 silly diffTrees remove assert-plus@1.0.0
+134 silly diffTrees remove getpass@0.1.6
+135 silly diffTrees remove graceful-fs@4.1.9
+136 silly diffTrees remove graceful-readlink@1.0.1
+137 silly diffTrees remove commander@2.9.0
+138 silly diffTrees remove has-ansi@2.0.0
+139 silly diffTrees remove has-color@0.1.7
+140 silly diffTrees remove has-unicode@2.0.1
+141 silly diffTrees remove hoek@2.16.3
+142 silly diffTrees remove boom@2.10.1
+143 silly diffTrees remove cryptiles@2.0.5
+144 silly diffTrees remove inherits@2.0.3
+145 silly diffTrees remove block-stream@0.0.9
+146 silly diffTrees remove ini@1.3.4
+147 silly diffTrees remove is-property@1.0.2
+148 silly diffTrees remove generate-object-property@1.2.0
+149 silly diffTrees remove is-typedarray@1.0.0
+150 silly diffTrees remove isarray@1.0.0
+151 silly diffTrees remove isstream@0.1.2
+152 silly diffTrees remove jsbn@0.1.0
+153 silly diffTrees remove ecc-jsbn@0.1.1
+154 silly diffTrees remove jodid25519@1.0.2
+155 silly diffTrees remove json-schema@0.2.3
+156 silly diffTrees remove json-stringify-safe@5.0.1
+157 silly diffTrees remove jsonpointer@4.0.0
+158 silly diffTrees remove mime-db@1.24.0
+159 silly diffTrees remove mime-types@2.1.12
+160 silly diffTrees remove form-data@2.0.0
+161 silly diffTrees remove minimatch@3.0.3
+162 silly diffTrees remove minimist@0.0.8
+163 silly diffTrees remove mkdirp@0.5.1
+164 silly diffTrees remove ms@0.7.1
+165 silly diffTrees remove debug@2.2.0
+166 silly diffTrees remove node-uuid@1.4.7
+167 silly diffTrees remove nopt@3.0.6
+168 silly diffTrees remove number-is-nan@1.0.1
+169 silly diffTrees remove code-point-at@1.0.1
+170 silly diffTrees remove is-fullwidth-code-point@1.0.0
+171 silly diffTrees remove oauth-sign@0.8.2
+172 silly diffTrees remove object-assign@4.1.0
+173 silly diffTrees remove path-is-absolute@1.0.1
+174 silly diffTrees remove pinkie@2.0.4
+175 silly diffTrees remove pinkie-promise@2.0.1
+176 silly diffTrees remove process-nextick-args@1.0.7
+177 silly diffTrees remove qs@6.2.1
+178 silly diffTrees remove minimist@1.2.0
+179 silly diffTrees remove semver@5.3.0
+180 silly diffTrees remove set-blocking@2.0.0
+181 silly diffTrees remove signal-exit@3.0.1
+182 silly diffTrees remove sntp@1.0.9
+183 silly diffTrees remove hawk@3.1.3
+184 silly diffTrees remove assert-plus@1.0.0
+185 silly diffTrees remove string_decoder@0.10.31
+186 silly diffTrees remove stringstream@0.0.5
+187 silly diffTrees remove strip-ansi@3.0.1
+188 silly diffTrees remove string-width@1.0.2
+189 silly diffTrees remove strip-json-comments@1.0.4
+190 silly diffTrees remove rc@1.1.6
+191 silly diffTrees remove supports-color@2.0.0
+192 silly diffTrees remove chalk@1.1.3
+193 silly diffTrees remove tough-cookie@2.3.1
+194 silly diffTrees remove tunnel-agent@0.4.3
+195 silly diffTrees remove tweetnacl@0.14.3
+196 silly diffTrees remove bcrypt-pbkdf@1.0.0
+197 silly diffTrees remove sshpk@1.10.1
+198 silly diffTrees remove uid-number@0.0.6
+199 silly diffTrees remove util-deprecate@1.0.2
+200 silly diffTrees remove readable-stream@2.0.6
+201 silly diffTrees remove bl@1.1.2
+202 silly diffTrees remove readable-stream@2.1.5
+203 silly diffTrees remove are-we-there-yet@1.1.2
+204 silly diffTrees remove verror@1.3.6
+205 silly diffTrees remove jsprim@1.3.1
+206 silly diffTrees remove http-signature@1.1.1
+207 silly diffTrees remove wide-align@1.1.0
+208 silly diffTrees remove gauge@2.6.0
+209 silly diffTrees remove npmlog@4.0.0
+210 silly diffTrees remove wrappy@1.0.2
+211 silly diffTrees remove once@1.4.0
+212 silly diffTrees remove inflight@1.0.5
+213 silly diffTrees remove glob@7.1.0
+214 silly diffTrees remove rimraf@2.5.4
+215 silly diffTrees remove fstream@1.0.10
+216 silly diffTrees remove fstream-ignore@1.0.5
+217 silly diffTrees remove tar@2.2.1
+218 silly diffTrees remove once@1.3.3
+219 silly diffTrees remove tar-pack@3.1.4
+220 silly diffTrees remove xtend@4.0.1
+221 silly diffTrees remove is-my-json-valid@2.15.0
+222 silly diffTrees remove har-validator@2.0.6
+223 silly diffTrees remove request@2.75.0
+224 silly diffTrees remove node-pre-gyp@0.6.30
+225 silly diffTrees update sqlite3@3.1.5
+226 silly decomposeActions action count 128
+227 silly decomposeActions remove abbrev@1.0.9
+228 silly decomposeActions remove ansi-regex@2.0.0
+229 silly decomposeActions remove ansi-styles@2.2.1
+230 silly decomposeActions remove aproba@1.0.4
+231 silly decomposeActions remove asn1@0.2.3
+232 silly decomposeActions remove assert-plus@0.2.0
+233 silly decomposeActions remove asynckit@0.4.0
+234 silly decomposeActions remove aws-sign2@0.6.0
+235 silly decomposeActions remove aws4@1.4.1
+236 silly decomposeActions remove balanced-match@0.4.2
+237 silly decomposeActions remove buffer-shims@1.0.0
+238 silly decomposeActions remove caseless@0.11.0
+239 silly decomposeActions remove concat-map@0.0.1
+240 silly decomposeActions remove brace-expansion@1.1.6
+241 silly decomposeActions remove console-control-strings@1.1.0
+242 silly decomposeActions remove core-util-is@1.0.2
+243 silly decomposeActions remove assert-plus@1.0.0
+244 silly decomposeActions remove dashdash@1.14.0
+245 silly decomposeActions remove deep-extend@0.4.1
+246 silly decomposeActions remove delayed-stream@1.0.0
+247 silly decomposeActions remove combined-stream@1.0.5
+248 silly decomposeActions remove delegates@1.0.0
+249 silly decomposeActions remove escape-string-regexp@1.0.5
+250 silly decomposeActions remove extend@3.0.0
+251 silly decomposeActions remove extsprintf@1.0.2
+252 silly decomposeActions remove forever-agent@0.6.1
+253 silly decomposeActions remove fs.realpath@1.0.0
+254 silly decomposeActions remove generate-function@2.0.0
+255 silly decomposeActions remove assert-plus@1.0.0
+256 silly decomposeActions remove getpass@0.1.6
+257 silly decomposeActions remove graceful-fs@4.1.9
+258 silly decomposeActions remove graceful-readlink@1.0.1
+259 silly decomposeActions remove commander@2.9.0
+260 silly decomposeActions remove has-ansi@2.0.0
+261 silly decomposeActions remove has-color@0.1.7
+262 silly decomposeActions remove has-unicode@2.0.1
+263 silly decomposeActions remove hoek@2.16.3
+264 silly decomposeActions remove boom@2.10.1
+265 silly decomposeActions remove cryptiles@2.0.5
+266 silly decomposeActions remove inherits@2.0.3
+267 silly decomposeActions remove block-stream@0.0.9
+268 silly decomposeActions remove ini@1.3.4
+269 silly decomposeActions remove is-property@1.0.2
+270 silly decomposeActions remove generate-object-property@1.2.0
+271 silly decomposeActions remove is-typedarray@1.0.0
+272 silly decomposeActions remove isarray@1.0.0
+273 silly decomposeActions remove isstream@0.1.2
+274 silly decomposeActions remove jsbn@0.1.0
+275 silly decomposeActions remove ecc-jsbn@0.1.1
+276 silly decomposeActions remove jodid25519@1.0.2
+277 silly decomposeActions remove json-schema@0.2.3
+278 silly decomposeActions remove json-stringify-safe@5.0.1
+279 silly decomposeActions remove jsonpointer@4.0.0
+280 silly decomposeActions remove mime-db@1.24.0
+281 silly decomposeActions remove mime-types@2.1.12
+282 silly decomposeActions remove form-data@2.0.0
+283 silly decomposeActions remove minimatch@3.0.3
+284 silly decomposeActions remove minimist@0.0.8
+285 silly decomposeActions remove mkdirp@0.5.1
+286 silly decomposeActions remove ms@0.7.1
+287 silly decomposeActions remove debug@2.2.0
+288 silly decomposeActions remove node-uuid@1.4.7
+289 silly decomposeActions remove nopt@3.0.6
+290 silly decomposeActions remove number-is-nan@1.0.1
+291 silly decomposeActions remove code-point-at@1.0.1
+292 silly decomposeActions remove is-fullwidth-code-point@1.0.0
+293 silly decomposeActions remove oauth-sign@0.8.2
+294 silly decomposeActions remove object-assign@4.1.0
+295 silly decomposeActions remove path-is-absolute@1.0.1
+296 silly decomposeActions remove pinkie@2.0.4
+297 silly decomposeActions remove pinkie-promise@2.0.1
+298 silly decomposeActions remove process-nextick-args@1.0.7
+299 silly decomposeActions remove qs@6.2.1
+300 silly decomposeActions remove minimist@1.2.0
+301 silly decomposeActions remove semver@5.3.0
+302 silly decomposeActions remove set-blocking@2.0.0
+303 silly decomposeActions remove signal-exit@3.0.1
+304 silly decomposeActions remove sntp@1.0.9
+305 silly decomposeActions remove hawk@3.1.3
+306 silly decomposeActions remove assert-plus@1.0.0
+307 silly decomposeActions remove string_decoder@0.10.31
+308 silly decomposeActions remove stringstream@0.0.5
+309 silly decomposeActions remove strip-ansi@3.0.1
+310 silly decomposeActions remove string-width@1.0.2
+311 silly decomposeActions remove strip-json-comments@1.0.4
+312 silly decomposeActions remove rc@1.1.6
+313 silly decomposeActions remove supports-color@2.0.0
+314 silly decomposeActions remove chalk@1.1.3
+315 silly decomposeActions remove tough-cookie@2.3.1
+316 silly decomposeActions remove tunnel-agent@0.4.3
+317 silly decomposeActions remove tweetnacl@0.14.3
+318 silly decomposeActions remove bcrypt-pbkdf@1.0.0
+319 silly decomposeActions remove sshpk@1.10.1
+320 silly decomposeActions remove uid-number@0.0.6
+321 silly decomposeActions remove util-deprecate@1.0.2
+322 silly decomposeActions remove readable-stream@2.0.6
+323 silly decomposeActions remove bl@1.1.2
+324 silly decomposeActions remove readable-stream@2.1.5
+325 silly decomposeActions remove are-we-there-yet@1.1.2
+326 silly decomposeActions remove verror@1.3.6
+327 silly decomposeActions remove jsprim@1.3.1
+328 silly decomposeActions remove http-signature@1.1.1
+329 silly decomposeActions remove wide-align@1.1.0
+330 silly decomposeActions remove gauge@2.6.0
+331 silly decomposeActions remove npmlog@4.0.0
+332 silly decomposeActions remove wrappy@1.0.2
+333 silly decomposeActions remove once@1.4.0
+334 silly decomposeActions remove inflight@1.0.5
+335 silly decomposeActions remove glob@7.1.0
+336 silly decomposeActions remove rimraf@2.5.4
+337 silly decomposeActions remove fstream@1.0.10
+338 silly decomposeActions remove fstream-ignore@1.0.5
+339 silly decomposeActions remove tar@2.2.1
+340 silly decomposeActions remove once@1.3.3
+341 silly decomposeActions remove tar-pack@3.1.4
+342 silly decomposeActions remove xtend@4.0.1
+343 silly decomposeActions remove is-my-json-valid@2.15.0
+344 silly decomposeActions remove har-validator@2.0.6
+345 silly decomposeActions remove request@2.75.0
+346 silly decomposeActions remove node-pre-gyp@0.6.30
+347 silly decomposeActions fetch sqlite3@3.1.5
+348 silly decomposeActions extract sqlite3@3.1.5
+349 silly decomposeActions test sqlite3@3.1.5
+350 silly decomposeActions preinstall sqlite3@3.1.5
+351 silly decomposeActions build sqlite3@3.1.5
+352 silly decomposeActions install sqlite3@3.1.5
+353 silly decomposeActions postinstall sqlite3@3.1.5
+354 silly decomposeActions finalize sqlite3@3.1.5
+355 silly executeActions Starting
+356 silly install executeActions
+357 silly doSerial global-install 0
+358 silly doParallel fetch 1
+359 verbose correctMkdir C:\Users\jp\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+360 verbose lock using C:\Users\jp\AppData\Roaming\npm-cache\_locks\staging-cdbb661e2d8775d1.lock for C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\.staging
+361 silly doParallel extract 1
+362 silly extract sqlite3@3.1.5
+363 verbose unbuild node_modules\.staging\sqlite3-d5408228
+364 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\.staging\sqlite3-d5408228 is being purged from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+365 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\.staging\sqlite3-d5408228
+366 verbose tar unpack C:\Users\jp\AppData\Roaming\npm-cache\sqlite3\3.1.5\package.tgz
+367 verbose tar unpacking to C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\.staging\sqlite3-d5408228
+368 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\.staging\sqlite3-d5408228 is being purged
+369 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\.staging\sqlite3-d5408228
+370 silly gunzTarPerm modes [ '777', '666' ]
+371 silly gunzTarPerm extractEntry package.json
+372 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+373 silly gunzTarPerm extractEntry README.md
+374 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+375 silly gunzTarPerm extractEntry LICENSE
+376 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+377 silly gunzTarPerm extractEntry sqlite3.js
+378 silly gunzTarPerm modified mode [ 'sqlite3.js', 420, 438 ]
+379 silly gunzTarPerm extractEntry binding.gyp
+380 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+381 silly gunzTarPerm extractEntry appveyor.yml
+382 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 438 ]
+383 silly gunzTarPerm extractEntry CHANGELOG.md
+384 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+385 silly gunzTarPerm extractEntry deps/common-sqlite.gypi
+386 silly gunzTarPerm modified mode [ 'deps/common-sqlite.gypi', 420, 438 ]
+387 silly gunzTarPerm extractEntry deps/extract.py
+388 silly gunzTarPerm modified mode [ 'deps/extract.py', 420, 438 ]
+389 silly gunzTarPerm extractEntry deps/sqlite-autoconf-3090100.tar.gz
+390 silly gunzTarPerm modified mode [ 'deps/sqlite-autoconf-3090100.tar.gz', 420, 438 ]
+391 silly gunzTarPerm extractEntry deps/sqlite3.gyp
+392 silly gunzTarPerm modified mode [ 'deps/sqlite3.gyp', 493, 511 ]
+393 silly gunzTarPerm extractEntry lib/index.js
+394 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+395 silly gunzTarPerm extractEntry lib/sqlite3.js
+396 silly gunzTarPerm modified mode [ 'lib/sqlite3.js', 420, 438 ]
+397 silly gunzTarPerm extractEntry lib/trace.js
+398 silly gunzTarPerm modified mode [ 'lib/trace.js', 420, 438 ]
+399 silly gunzTarPerm extractEntry src/async.h
+400 silly gunzTarPerm modified mode [ 'src/async.h', 420, 438 ]
+401 silly gunzTarPerm extractEntry src/database.cc
+402 silly gunzTarPerm modified mode [ 'src/database.cc', 420, 438 ]
+403 silly gunzTarPerm extractEntry src/database.h
+404 silly gunzTarPerm modified mode [ 'src/database.h', 420, 438 ]
+405 silly gunzTarPerm extractEntry src/gcc-preinclude.h
+406 silly gunzTarPerm modified mode [ 'src/gcc-preinclude.h', 420, 438 ]
+407 silly gunzTarPerm extractEntry src/macros.h
+408 silly gunzTarPerm modified mode [ 'src/macros.h', 420, 438 ]
+409 silly gunzTarPerm extractEntry src/node_sqlite3.cc
+410 silly gunzTarPerm modified mode [ 'src/node_sqlite3.cc', 420, 438 ]
+411 silly gunzTarPerm extractEntry src/statement.cc
+412 silly gunzTarPerm modified mode [ 'src/statement.cc', 420, 438 ]
+413 silly gunzTarPerm extractEntry src/statement.h
+414 silly gunzTarPerm modified mode [ 'src/statement.h', 420, 438 ]
+415 silly gunzTarPerm extractEntry src/threading.h
+416 silly gunzTarPerm modified mode [ 'src/threading.h', 420, 438 ]
+417 silly gunzTarPerm extractEntry CONTRIBUTING.md
+418 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 438 ]
+419 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\.staging\sqlite3-d5408228\node_modules is being purged
+420 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\.staging\sqlite3-d5408228\node_modules
+421 silly doParallel preinstall 1
+422 silly preinstall sqlite3@3.1.5 C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\.staging\sqlite3-d5408228
+423 info lifecycle sqlite3@3.1.5~preinstall: sqlite3@3.1.5
+424 verbose lifecycle sqlite3@3.1.5~preinstall: unsafe-perm in lifecycle true
+425 verbose lifecycle sqlite3@3.1.5~preinstall: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\.staging\sqlite3-d5408228\node_modules\.bin;C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\.bin;C:\Program Files\nodejs;C:\Users\jp\Desktop\cmder\bin;C:\Users\jp\Desktop\cmder\vendor\git-for-windows\cmd;C:\Users\jp\Desktop\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\jp\Desktop\cmder\vendor\conemu-maximus5;C:\Users\jp\Desktop\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Users\jp\AppData\Local\Microsoft\WindowsApps;C:\Users\jp\AppData\Roaming\npm;C:\Users\jp\Desktop\cmder\vendor\git-for-windows\usr\bin;C:\Users\jp\Desktop\cmder\vendor\git-for-windows\usr\share\vim\vim74;C:\Users\jp\Desktop\cmder\
+426 verbose lifecycle sqlite3@3.1.5~preinstall: CWD: C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\.staging\sqlite3-d5408228
+427 silly lifecycle sqlite3@3.1.5~preinstall: Args: [ '/d /s /c', 'npm install node-pre-gyp' ]
+428 silly lifecycle sqlite3@3.1.5~preinstall: Returned: code: 0  signal: null
+429 silly doReverseSerial remove 120
+430 silly remove C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\node-pre-gyp
+431 verbose unbuild node_modules\sqlite3\node_modules\node-pre-gyp
+432 info lifecycle node-pre-gyp@0.6.30~preuninstall: node-pre-gyp@0.6.30
+433 silly lifecycle node-pre-gyp@0.6.30~preuninstall: no script for preuninstall, continuing
+434 info lifecycle node-pre-gyp@0.6.30~uninstall: node-pre-gyp@0.6.30
+435 silly lifecycle node-pre-gyp@0.6.30~uninstall: no script for uninstall, continuing
+436 verbose unbuild rmStuff node-pre-gyp@0.6.30 from C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules
+437 verbose unbuild rmStuff in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+438 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\node-pre-gyp.cmd is being gently removed from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\node-pre-gyp
+439 silly isEverInside C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\node-pre-gyp.cmd is not inside C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\node-pre-gyp
+440 silly gentlyRm parent.path = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\node-pre-gyp
+441 silly gentlyRm parent.managed = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\node-pre-gyp is in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+442 silly gentlyRm target.path =  C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\node-pre-gyp.cmd
+443 silly gentlyRm target.symlink = ..\node-pre-gyp\bin\node-pre-gyp
+444 silly gentlyRm target.managed = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\node-pre-gyp.cmd is in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+445 silly gentlyRm target.inParent =  { target: 'C:\\Users\\jp\\Google Drive\\Documents perso\\Bachelor_3\\tp_individuel\\node_modules\\sqlite3\\node_modules\\node-pre-gyp\\bin\\node-pre-gyp',
+445 silly gentlyRm   path: 'C:\\Users\\jp\\Google Drive\\Documents perso\\Bachelor_3\\tp_individuel\\node_modules\\sqlite3\\node_modules\\node-pre-gyp' }
+446 verbose gentlyRm Vacuuming C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\node-pre-gyp.cmd up to C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin
+447 silly vacuum-fs removing C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\node-pre-gyp.cmd
+448 silly vacuum-fs finished vacuuming up to C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin
+449 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\node-pre-gyp is being gently removed from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\node-pre-gyp
+450 silly isEverInside C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\node-pre-gyp is not inside C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\node-pre-gyp
+451 silly gentlyRm parent.path = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\node-pre-gyp
+452 silly gentlyRm parent.managed = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\node-pre-gyp is in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+453 silly gentlyRm target.path =  C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\node-pre-gyp
+454 silly gentlyRm target.symlink = ../node-pre-gyp/bin/node-pre-gyp
+455 silly gentlyRm target.managed = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\node-pre-gyp is in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+456 silly gentlyRm target.inParent =  { target: 'C:\\Users\\jp\\Google Drive\\Documents perso\\Bachelor_3\\tp_individuel\\node_modules\\sqlite3\\node_modules\\node-pre-gyp\\bin\\node-pre-gyp',
+456 silly gentlyRm   path: 'C:\\Users\\jp\\Google Drive\\Documents perso\\Bachelor_3\\tp_individuel\\node_modules\\sqlite3\\node_modules\\node-pre-gyp' }
+457 verbose gentlyRm Vacuuming C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\node-pre-gyp up to C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin
+458 silly vacuum-fs removing C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\node-pre-gyp
+459 silly vacuum-fs finished vacuuming up to C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin
+460 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin is being gently removed from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+461 silly gentlyRm parent.path = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+462 silly gentlyRm parent.managed = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules is in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+463 silly gentlyRm target.path =  C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin
+464 silly gentlyRm target.symlink = null
+465 silly gentlyRm target.managed = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin is in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+466 silly gentlyRm target.inParent =  { target: 'C:\\Users\\jp\\Google Drive\\Documents perso\\Bachelor_3\\tp_individuel\\node_modules\\sqlite3\\node_modules\\.bin',
+466 silly gentlyRm   path: 'C:\\Users\\jp\\Google Drive\\Documents perso\\Bachelor_3\\tp_individuel\\node_modules\\sqlite3\\node_modules' }
+467 verbose gentlyRm Vacuuming C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin up to C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+468 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin
+469 info lifecycle node-pre-gyp@0.6.30~postuninstall: node-pre-gyp@0.6.30
+470 silly lifecycle node-pre-gyp@0.6.30~postuninstall: no script for postuninstall, continuing
+471 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\node-pre-gyp is being purged from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+472 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\node-pre-gyp
+473 silly vacuum-fs purging C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\node-pre-gyp
+474 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+475 silly remove C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\request
+476 verbose unbuild node_modules\sqlite3\node_modules\request
+477 info lifecycle request@2.75.0~preuninstall: request@2.75.0
+478 silly lifecycle request@2.75.0~preuninstall: no script for preuninstall, continuing
+479 info lifecycle request@2.75.0~uninstall: request@2.75.0
+480 silly lifecycle request@2.75.0~uninstall: no script for uninstall, continuing
+481 verbose unbuild rmStuff request@2.75.0 from C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules
+482 verbose unbuild rmStuff in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+483 info lifecycle request@2.75.0~postuninstall: request@2.75.0
+484 silly lifecycle request@2.75.0~postuninstall: no script for postuninstall, continuing
+485 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\request is being purged from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+486 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\request
+487 silly vacuum-fs purging C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\request
+488 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+489 silly remove C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\har-validator
+490 verbose unbuild node_modules\sqlite3\node_modules\har-validator
+491 info lifecycle har-validator@2.0.6~preuninstall: har-validator@2.0.6
+492 silly lifecycle har-validator@2.0.6~preuninstall: no script for preuninstall, continuing
+493 info lifecycle har-validator@2.0.6~uninstall: har-validator@2.0.6
+494 silly lifecycle har-validator@2.0.6~uninstall: no script for uninstall, continuing
+495 verbose unbuild rmStuff har-validator@2.0.6 from C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules
+496 verbose unbuild rmStuff in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+497 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\har-validator.cmd is being gently removed from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\har-validator
+498 silly isEverInside C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\har-validator.cmd is not inside C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\har-validator
+499 silly gentlyRm parent.path = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\har-validator
+500 silly gentlyRm parent.managed = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\har-validator is in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+501 silly gentlyRm target.path =  C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\har-validator.cmd
+502 silly gentlyRm target.symlink = ..\har-validator\bin\har-validator
+503 silly gentlyRm target.managed = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\har-validator.cmd is in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+504 silly gentlyRm target.inParent =  { target: 'C:\\Users\\jp\\Google Drive\\Documents perso\\Bachelor_3\\tp_individuel\\node_modules\\sqlite3\\node_modules\\har-validator\\bin\\har-validator',
+504 silly gentlyRm   path: 'C:\\Users\\jp\\Google Drive\\Documents perso\\Bachelor_3\\tp_individuel\\node_modules\\sqlite3\\node_modules\\har-validator' }
+505 verbose gentlyRm Vacuuming C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\har-validator.cmd up to C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin
+506 silly vacuum-fs removing C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\har-validator.cmd
+507 silly vacuum-fs finished vacuuming up to C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin
+508 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\har-validator is being gently removed from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\har-validator
+509 silly isEverInside C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\har-validator is not inside C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\har-validator
+510 silly gentlyRm parent.path = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\har-validator
+511 silly gentlyRm parent.managed = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\har-validator is in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+512 silly gentlyRm target.path =  C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\har-validator
+513 silly gentlyRm target.symlink = ../har-validator/bin/har-validator
+514 silly gentlyRm target.managed = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\har-validator is in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+515 silly gentlyRm target.inParent =  { target: 'C:\\Users\\jp\\Google Drive\\Documents perso\\Bachelor_3\\tp_individuel\\node_modules\\sqlite3\\node_modules\\har-validator\\bin\\har-validator',
+515 silly gentlyRm   path: 'C:\\Users\\jp\\Google Drive\\Documents perso\\Bachelor_3\\tp_individuel\\node_modules\\sqlite3\\node_modules\\har-validator' }
+516 verbose gentlyRm Vacuuming C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\har-validator up to C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin
+517 silly vacuum-fs removing C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\har-validator
+518 silly vacuum-fs finished vacuuming up to C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin
+519 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin is being gently removed from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+520 silly gentlyRm parent.path = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+521 silly gentlyRm parent.managed = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules is in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+522 silly gentlyRm target.path =  C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin
+523 silly gentlyRm target.symlink = null
+524 silly gentlyRm target.managed = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin is in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+525 silly gentlyRm target.inParent =  { target: 'C:\\Users\\jp\\Google Drive\\Documents perso\\Bachelor_3\\tp_individuel\\node_modules\\sqlite3\\node_modules\\.bin',
+525 silly gentlyRm   path: 'C:\\Users\\jp\\Google Drive\\Documents perso\\Bachelor_3\\tp_individuel\\node_modules\\sqlite3\\node_modules' }
+526 verbose gentlyRm Vacuuming C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin up to C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+527 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin
+528 info lifecycle har-validator@2.0.6~postuninstall: har-validator@2.0.6
+529 silly lifecycle har-validator@2.0.6~postuninstall: no script for postuninstall, continuing
+530 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\har-validator is being purged from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+531 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\har-validator
+532 silly vacuum-fs purging C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\har-validator
+533 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+534 silly remove C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\is-my-json-valid
+535 verbose unbuild node_modules\sqlite3\node_modules\is-my-json-valid
+536 info lifecycle is-my-json-valid@2.15.0~preuninstall: is-my-json-valid@2.15.0
+537 silly lifecycle is-my-json-valid@2.15.0~preuninstall: no script for preuninstall, continuing
+538 info lifecycle is-my-json-valid@2.15.0~uninstall: is-my-json-valid@2.15.0
+539 silly lifecycle is-my-json-valid@2.15.0~uninstall: no script for uninstall, continuing
+540 verbose unbuild rmStuff is-my-json-valid@2.15.0 from C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules
+541 verbose unbuild rmStuff in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+542 info lifecycle is-my-json-valid@2.15.0~postuninstall: is-my-json-valid@2.15.0
+543 silly lifecycle is-my-json-valid@2.15.0~postuninstall: no script for postuninstall, continuing
+544 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\is-my-json-valid is being purged from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+545 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\is-my-json-valid
+546 silly vacuum-fs purging C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\is-my-json-valid
+547 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+548 silly remove C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\xtend
+549 verbose unbuild node_modules\sqlite3\node_modules\xtend
+550 info lifecycle xtend@4.0.1~preuninstall: xtend@4.0.1
+551 silly lifecycle xtend@4.0.1~preuninstall: no script for preuninstall, continuing
+552 info lifecycle xtend@4.0.1~uninstall: xtend@4.0.1
+553 silly lifecycle xtend@4.0.1~uninstall: no script for uninstall, continuing
+554 verbose unbuild rmStuff xtend@4.0.1 from C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules
+555 verbose unbuild rmStuff in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+556 info lifecycle xtend@4.0.1~postuninstall: xtend@4.0.1
+557 silly lifecycle xtend@4.0.1~postuninstall: no script for postuninstall, continuing
+558 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\xtend is being purged from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+559 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\xtend
+560 silly vacuum-fs purging C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\xtend
+561 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+562 silly remove C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\tar-pack
+563 verbose unbuild node_modules\sqlite3\node_modules\tar-pack
+564 info lifecycle tar-pack@3.1.4~preuninstall: tar-pack@3.1.4
+565 silly lifecycle tar-pack@3.1.4~preuninstall: no script for preuninstall, continuing
+566 info lifecycle tar-pack@3.1.4~uninstall: tar-pack@3.1.4
+567 silly lifecycle tar-pack@3.1.4~uninstall: no script for uninstall, continuing
+568 verbose unbuild rmStuff tar-pack@3.1.4 from C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules
+569 verbose unbuild rmStuff in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+570 info lifecycle tar-pack@3.1.4~postuninstall: tar-pack@3.1.4
+571 silly lifecycle tar-pack@3.1.4~postuninstall: no script for postuninstall, continuing
+572 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\tar-pack is being purged from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+573 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\tar-pack
+574 silly vacuum-fs purging C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\tar-pack
+575 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+576 silly remove C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\tar-pack\node_modules\once
+577 verbose unbuild node_modules\sqlite3\node_modules\tar-pack\node_modules\once
+578 info lifecycle once@1.3.3~preuninstall: once@1.3.3
+579 silly lifecycle once@1.3.3~preuninstall: no script for preuninstall, continuing
+580 info lifecycle once@1.3.3~uninstall: once@1.3.3
+581 silly lifecycle once@1.3.3~uninstall: no script for uninstall, continuing
+582 verbose unbuild rmStuff once@1.3.3 from C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules
+583 verbose unbuild rmStuff in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\tar-pack\node_modules
+584 info lifecycle once@1.3.3~postuninstall: once@1.3.3
+585 silly lifecycle once@1.3.3~postuninstall: no script for postuninstall, continuing
+586 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\tar-pack\node_modules\once is being purged from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+587 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\tar-pack\node_modules\once
+588 silly vacuum-fs purging C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\tar-pack\node_modules\once
+589 silly vacuum-fs removing C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\tar-pack\node_modules
+590 silly vacuum-fs removing C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\tar-pack
+591 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+592 silly remove C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\tar
+593 verbose unbuild node_modules\sqlite3\node_modules\tar
+594 info lifecycle tar@2.2.1~preuninstall: tar@2.2.1
+595 silly lifecycle tar@2.2.1~preuninstall: no script for preuninstall, continuing
+596 info lifecycle tar@2.2.1~uninstall: tar@2.2.1
+597 silly lifecycle tar@2.2.1~uninstall: no script for uninstall, continuing
+598 verbose unbuild rmStuff tar@2.2.1 from C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules
+599 verbose unbuild rmStuff in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+600 info lifecycle tar@2.2.1~postuninstall: tar@2.2.1
+601 silly lifecycle tar@2.2.1~postuninstall: no script for postuninstall, continuing
+602 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\tar is being purged from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+603 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\tar
+604 silly vacuum-fs purging C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\tar
+605 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+606 silly remove C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\fstream-ignore
+607 verbose unbuild node_modules\sqlite3\node_modules\fstream-ignore
+608 info lifecycle fstream-ignore@1.0.5~preuninstall: fstream-ignore@1.0.5
+609 silly lifecycle fstream-ignore@1.0.5~preuninstall: no script for preuninstall, continuing
+610 info lifecycle fstream-ignore@1.0.5~uninstall: fstream-ignore@1.0.5
+611 silly lifecycle fstream-ignore@1.0.5~uninstall: no script for uninstall, continuing
+612 verbose unbuild rmStuff fstream-ignore@1.0.5 from C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules
+613 verbose unbuild rmStuff in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+614 info lifecycle fstream-ignore@1.0.5~postuninstall: fstream-ignore@1.0.5
+615 silly lifecycle fstream-ignore@1.0.5~postuninstall: no script for postuninstall, continuing
+616 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\fstream-ignore is being purged from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+617 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\fstream-ignore
+618 silly vacuum-fs purging C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\fstream-ignore
+619 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+620 silly remove C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\fstream
+621 verbose unbuild node_modules\sqlite3\node_modules\fstream
+622 info lifecycle fstream@1.0.10~preuninstall: fstream@1.0.10
+623 silly lifecycle fstream@1.0.10~preuninstall: no script for preuninstall, continuing
+624 info lifecycle fstream@1.0.10~uninstall: fstream@1.0.10
+625 silly lifecycle fstream@1.0.10~uninstall: no script for uninstall, continuing
+626 verbose unbuild rmStuff fstream@1.0.10 from C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules
+627 verbose unbuild rmStuff in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+628 info lifecycle fstream@1.0.10~postuninstall: fstream@1.0.10
+629 silly lifecycle fstream@1.0.10~postuninstall: no script for postuninstall, continuing
+630 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\fstream is being purged from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+631 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\fstream
+632 silly vacuum-fs purging C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\fstream
+633 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+634 silly remove C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\rimraf
+635 verbose unbuild node_modules\sqlite3\node_modules\rimraf
+636 info lifecycle rimraf@2.5.4~preuninstall: rimraf@2.5.4
+637 silly lifecycle rimraf@2.5.4~preuninstall: no script for preuninstall, continuing
+638 info lifecycle rimraf@2.5.4~uninstall: rimraf@2.5.4
+639 silly lifecycle rimraf@2.5.4~uninstall: no script for uninstall, continuing
+640 verbose unbuild rmStuff rimraf@2.5.4 from C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules
+641 verbose unbuild rmStuff in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+642 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\rimraf.cmd is being gently removed from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\rimraf
+643 silly isEverInside C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\rimraf.cmd is not inside C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\rimraf
+644 silly gentlyRm parent.path = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\rimraf
+645 silly gentlyRm parent.managed = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\rimraf is in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+646 silly gentlyRm target.path =  C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\rimraf.cmd
+647 silly gentlyRm target.symlink = ..\rimraf\bin.js
+648 silly gentlyRm target.managed = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\rimraf.cmd is in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+649 silly gentlyRm target.inParent =  { target: 'C:\\Users\\jp\\Google Drive\\Documents perso\\Bachelor_3\\tp_individuel\\node_modules\\sqlite3\\node_modules\\rimraf\\bin.js',
+649 silly gentlyRm   path: 'C:\\Users\\jp\\Google Drive\\Documents perso\\Bachelor_3\\tp_individuel\\node_modules\\sqlite3\\node_modules\\rimraf' }
+650 verbose gentlyRm Vacuuming C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\rimraf.cmd up to C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin
+651 silly vacuum-fs removing C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\rimraf.cmd
+652 silly vacuum-fs finished vacuuming up to C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin
+653 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\rimraf is being gently removed from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\rimraf
+654 silly isEverInside C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\rimraf is not inside C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\rimraf
+655 silly gentlyRm parent.path = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\rimraf
+656 silly gentlyRm parent.managed = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\rimraf is in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+657 silly gentlyRm target.path =  C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\rimraf
+658 silly gentlyRm target.symlink = ../rimraf/bin.js
+659 silly gentlyRm target.managed = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\rimraf is in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+660 silly gentlyRm target.inParent =  { target: 'C:\\Users\\jp\\Google Drive\\Documents perso\\Bachelor_3\\tp_individuel\\node_modules\\sqlite3\\node_modules\\rimraf\\bin.js',
+660 silly gentlyRm   path: 'C:\\Users\\jp\\Google Drive\\Documents perso\\Bachelor_3\\tp_individuel\\node_modules\\sqlite3\\node_modules\\rimraf' }
+661 verbose gentlyRm Vacuuming C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\rimraf up to C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin
+662 silly vacuum-fs removing C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin\rimraf
+663 silly vacuum-fs finished vacuuming up to C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin
+664 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin is being gently removed from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+665 silly gentlyRm parent.path = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+666 silly gentlyRm parent.managed = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules is in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+667 silly gentlyRm target.path =  C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin
+668 silly gentlyRm target.symlink = null
+669 silly gentlyRm target.managed = C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin is in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+670 silly gentlyRm target.inParent =  { target: 'C:\\Users\\jp\\Google Drive\\Documents perso\\Bachelor_3\\tp_individuel\\node_modules\\sqlite3\\node_modules\\.bin',
+670 silly gentlyRm   path: 'C:\\Users\\jp\\Google Drive\\Documents perso\\Bachelor_3\\tp_individuel\\node_modules\\sqlite3\\node_modules' }
+671 verbose gentlyRm Vacuuming C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin up to C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+672 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\.bin
+673 info lifecycle rimraf@2.5.4~postuninstall: rimraf@2.5.4
+674 silly lifecycle rimraf@2.5.4~postuninstall: no script for postuninstall, continuing
+675 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\rimraf is being purged from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+676 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\rimraf
+677 silly vacuum-fs purging C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\rimraf
+678 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+679 silly remove C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\glob
+680 verbose unbuild node_modules\sqlite3\node_modules\glob
+681 info lifecycle glob@7.1.0~preuninstall: glob@7.1.0
+682 silly lifecycle glob@7.1.0~preuninstall: no script for preuninstall, continuing
+683 info lifecycle glob@7.1.0~uninstall: glob@7.1.0
+684 silly lifecycle glob@7.1.0~uninstall: no script for uninstall, continuing
+685 verbose unbuild rmStuff glob@7.1.0 from C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules
+686 verbose unbuild rmStuff in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+687 info lifecycle glob@7.1.0~postuninstall: glob@7.1.0
+688 silly lifecycle glob@7.1.0~postuninstall: no script for postuninstall, continuing
+689 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\glob is being purged from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+690 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\glob
+691 silly vacuum-fs purging C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\glob
+692 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+693 silly remove C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\inflight
+694 verbose unbuild node_modules\sqlite3\node_modules\inflight
+695 info lifecycle inflight@1.0.5~preuninstall: inflight@1.0.5
+696 silly lifecycle inflight@1.0.5~preuninstall: no script for preuninstall, continuing
+697 info lifecycle inflight@1.0.5~uninstall: inflight@1.0.5
+698 silly lifecycle inflight@1.0.5~uninstall: no script for uninstall, continuing
+699 verbose unbuild rmStuff inflight@1.0.5 from C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules
+700 verbose unbuild rmStuff in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+701 info lifecycle inflight@1.0.5~postuninstall: inflight@1.0.5
+702 silly lifecycle inflight@1.0.5~postuninstall: no script for postuninstall, continuing
+703 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\inflight is being purged from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+704 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\inflight
+705 silly vacuum-fs purging C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\inflight
+706 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+707 silly remove C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\once
+708 verbose unbuild node_modules\sqlite3\node_modules\once
+709 info lifecycle once@1.4.0~preuninstall: once@1.4.0
+710 silly lifecycle once@1.4.0~preuninstall: no script for preuninstall, continuing
+711 info lifecycle once@1.4.0~uninstall: once@1.4.0
+712 silly lifecycle once@1.4.0~uninstall: no script for uninstall, continuing
+713 verbose unbuild rmStuff once@1.4.0 from C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules
+714 verbose unbuild rmStuff in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+715 info lifecycle once@1.4.0~postuninstall: once@1.4.0
+716 silly lifecycle once@1.4.0~postuninstall: no script for postuninstall, continuing
+717 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\once is being purged from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+718 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\once
+719 silly vacuum-fs purging C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\once
+720 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+721 silly remove C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\wrappy
+722 verbose unbuild node_modules\sqlite3\node_modules\wrappy
+723 info lifecycle wrappy@1.0.2~preuninstall: wrappy@1.0.2
+724 silly lifecycle wrappy@1.0.2~preuninstall: no script for preuninstall, continuing
+725 info lifecycle wrappy@1.0.2~uninstall: wrappy@1.0.2
+726 silly lifecycle wrappy@1.0.2~uninstall: no script for uninstall, continuing
+727 verbose unbuild rmStuff wrappy@1.0.2 from C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules
+728 verbose unbuild rmStuff in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+729 info lifecycle wrappy@1.0.2~postuninstall: wrappy@1.0.2
+730 silly lifecycle wrappy@1.0.2~postuninstall: no script for postuninstall, continuing
+731 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\wrappy is being purged from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+732 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\wrappy
+733 silly vacuum-fs purging C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\wrappy
+734 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+735 silly remove C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\npmlog
+736 verbose unbuild node_modules\sqlite3\node_modules\npmlog
+737 info lifecycle npmlog@4.0.0~preuninstall: npmlog@4.0.0
+738 silly lifecycle npmlog@4.0.0~preuninstall: no script for preuninstall, continuing
+739 info lifecycle npmlog@4.0.0~uninstall: npmlog@4.0.0
+740 silly lifecycle npmlog@4.0.0~uninstall: no script for uninstall, continuing
+741 verbose unbuild rmStuff npmlog@4.0.0 from C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules
+742 verbose unbuild rmStuff in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+743 info lifecycle npmlog@4.0.0~postuninstall: npmlog@4.0.0
+744 silly lifecycle npmlog@4.0.0~postuninstall: no script for postuninstall, continuing
+745 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\npmlog is being purged from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+746 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\npmlog
+747 silly vacuum-fs purging C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\npmlog
+748 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+749 silly remove C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\gauge
+750 verbose unbuild node_modules\sqlite3\node_modules\gauge
+751 info lifecycle gauge@2.6.0~preuninstall: gauge@2.6.0
+752 silly lifecycle gauge@2.6.0~preuninstall: no script for preuninstall, continuing
+753 info lifecycle gauge@2.6.0~uninstall: gauge@2.6.0
+754 silly lifecycle gauge@2.6.0~uninstall: no script for uninstall, continuing
+755 verbose unbuild rmStuff gauge@2.6.0 from C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules
+756 verbose unbuild rmStuff in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+757 info lifecycle gauge@2.6.0~postuninstall: gauge@2.6.0
+758 silly lifecycle gauge@2.6.0~postuninstall: no script for postuninstall, continuing
+759 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\gauge is being purged from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+760 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\gauge
+761 silly vacuum-fs purging C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\gauge
+762 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+763 silly remove C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\wide-align
+764 verbose unbuild node_modules\sqlite3\node_modules\wide-align
+765 info lifecycle wide-align@1.1.0~preuninstall: wide-align@1.1.0
+766 silly lifecycle wide-align@1.1.0~preuninstall: no script for preuninstall, continuing
+767 info lifecycle wide-align@1.1.0~uninstall: wide-align@1.1.0
+768 silly lifecycle wide-align@1.1.0~uninstall: no script for uninstall, continuing
+769 verbose unbuild rmStuff wide-align@1.1.0 from C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules
+770 verbose unbuild rmStuff in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+771 info lifecycle wide-align@1.1.0~postuninstall: wide-align@1.1.0
+772 silly lifecycle wide-align@1.1.0~postuninstall: no script for postuninstall, continuing
+773 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\wide-align is being purged from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+774 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\wide-align
+775 silly vacuum-fs purging C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\wide-align
+776 silly vacuum-fs quitting because other entries in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+777 silly remove C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\http-signature
+778 verbose unbuild node_modules\sqlite3\node_modules\http-signature
+779 info lifecycle http-signature@1.1.1~preuninstall: http-signature@1.1.1
+780 silly lifecycle http-signature@1.1.1~preuninstall: no script for preuninstall, continuing
+781 info lifecycle http-signature@1.1.1~uninstall: http-signature@1.1.1
+782 silly lifecycle http-signature@1.1.1~uninstall: no script for uninstall, continuing
+783 verbose unbuild rmStuff http-signature@1.1.1 from C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules
+784 verbose unbuild rmStuff in C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules
+785 info lifecycle http-signature@1.1.1~postuninstall: http-signature@1.1.1
+786 silly lifecycle http-signature@1.1.1~postuninstall: no script for postuninstall, continuing
+787 silly gentlyRm C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\http-signature is being purged from base C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+788 verbose gentlyRm don't care about contents; nuking C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\http-signature
+789 silly vacuum-fs purging C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\http-signature
+790 verbose unlock done using C:\Users\jp\AppData\Roaming\npm-cache\_locks\staging-cdbb661e2d8775d1.lock for C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\.staging
+791 silly rollbackFailedOptional Starting
+792 silly rollbackFailedOptional Finishing
+793 silly runTopLevelLifecycles Starting
+794 silly runTopLevelLifecycles Finishing
+795 silly install printInstalled
+796 warn tp_01@1.0.0 No description
+797 warn tp_01@1.0.0 No repository field.
+798 verbose stack Error: EPERM: operation not permitted, unlink 'C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\http-signature\lib\parser.js'
+798 verbose stack     at Error (native)
+799 verbose cwd C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel
+800 error Windows_NT 10.0.14393
+801 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "sqlite3"
+802 error node v6.7.0
+803 error npm  v3.10.3
+804 error path C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\http-signature\lib\parser.js
+805 error code EPERM
+806 error errno -4048
+807 error syscall unlink
+808 error Error: EPERM: operation not permitted, unlink 'C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\http-signature\lib\parser.js'
+808 error     at Error (native)
+808 error  { Error: EPERM: operation not permitted, unlink 'C:\Users\jp\Google Drive\Documents perso\Bachelor_3\tp_individuel\node_modules\sqlite3\node_modules\http-signature\lib\parser.js'
+808 error     at Error (native)
+808 error   errno: -4048,
+808 error   code: 'EPERM',
+808 error   syscall: 'unlink',
+808 error   path: 'C:\\Users\\jp\\Google Drive\\Documents perso\\Bachelor_3\\tp_individuel\\node_modules\\sqlite3\\node_modules\\http-signature\\lib\\parser.js',
+808 error   parent: 'sqlite3' }
+809 error Please try running this command again as root/Administrator.
+810 verbose exit [ -4048, true ]

@@ -1,0 +1,20 @@
+{
+  "name": "tp_01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "inquirer": "^1.2.1",
+    "sqlite": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mycommand": "./index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
